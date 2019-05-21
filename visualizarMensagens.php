@@ -20,22 +20,23 @@
         <div class="nav-wrapper container"><a id="logo-container" href="index.php" class="brand-logo">Lucas VSCS</a>
 
             <ul class="right hide-on-med-and-down">
-                <li><a href="#"><i class="material-icons left">search</i>Visualizar mensagem enviadas</a></li>
+                <li class="active"><a href="#"><i class="material-icons left">search</i>Visualizar mensagem enviadas</a>
+                </li>
             </ul>
 
             <ul class="right hide-on-med-and-down">
-                <li class="active"><a href="index.php"><i class="material-icons left">add</i>Nova mensagem</a></li>
+                <li><a href="index.php"><i class="material-icons left">add</i>Nova mensagem</a></li>
             </ul>
 
-            <ul class="left hide-on-med-and-down">
+            <ul class="right hide-on-med-and-down">
                 <li><a href="https://gitlab.com/vscs"><i class="fab fa-gitlab"></i></a></li>
                 <li><a href="https://github.com/LucasVSCS"><i class="fab fa-github"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/lucasvscs/"><i class="fab fa-linkedin"></i></a></li>
             </ul>
 
             <ul id="nav-mobile" class="sidenav">
-                <li class="active"><a href="index.php"><i class="material-icons left">add</i>Nova mensagem</a></li>
-                <li><a href="#"><i class="material-icons left">search</i>Mensagens enviadas</a></li>
+                <li><a href="index.php"><i class="material-icons left">add</i>Nova mensagem</a></li>
+                <li class="active"><a href="#"><i class="material-icons left">search</i>Mensagens enviadas</a></li>
             </ul>
 
             <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -52,7 +53,7 @@
                         <h4 class="grey-text">Mensagens recebidas</h4>
 
                         <div class="row">
-                            <table class="display">
+                            <table class="display responsive-table">
                                 <thead>
                                     <tr>
                                         <th>ID</th>

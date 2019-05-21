@@ -27,7 +27,7 @@
                 <li class="active"><a href="#"><i class="material-icons left">add</i>Nova mensagem</a></li>
             </ul>
 
-            <ul class="left hide-on-med-and-down">
+            <ul class="right hide-on-med-and-down">
                 <li><a href="https://gitlab.com/vscs"><i class="fab fa-gitlab"></i></a></li>
                 <li><a href="https://github.com/LucasVSCS"><i class="fab fa-github"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/lucasvscs/"><i class="fab fa-linkedin"></i></a></li>
